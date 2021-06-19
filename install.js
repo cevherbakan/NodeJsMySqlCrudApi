@@ -2,13 +2,16 @@ var mysql = require('mysql');
 
 
 
-//For Create Table
+
 var conn = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
   database:"database"
 });
+
+
+//For Create Table
 
 conn.connect(function(err) {
     if (err) throw err;
