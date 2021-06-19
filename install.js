@@ -2,7 +2,7 @@ var mysql = require('mysql');
 
 
 
-//Tablo oluşturmaları için
+//For Create Table
 var conn = mysql.createConnection({
   host: "localhost",
   user: "root",
